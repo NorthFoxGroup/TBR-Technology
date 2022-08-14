@@ -5,6 +5,8 @@ import HomeCard from "../Components/Home/HomeCard";
 import HomeProviders from "../Components/Home/HomeProviders";
 import HomeHead from "../Components/Home/HomeHead";
 import HomePartner from "../Components/Home/HomePartner";
+import HomeClients from "../Components/Home/HomeClients";
+import HomeContact from "../Components/Home/HomeContact";
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
       <HomeCard />
       <HomeProviders />
       <HomePartner />
+      <HomeClients />
+      <HomeContact />
     </>
   );
 };
