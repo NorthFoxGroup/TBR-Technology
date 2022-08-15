@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import ContactHead from "../Components/Contact/ContactHead";
+import GetInTouch from "../Components/Contact/GetInTouch"
 
 const Contact = () => {
   return (
-    <div>Contact</div>
-  )
-}
+    <>
+      <ContactHead />
+      <GetInTouch/>
+    </>
+  );
+};
 
-export default Contact
+export default Contact;

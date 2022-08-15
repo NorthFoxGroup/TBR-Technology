@@ -12,19 +12,19 @@ const HomeProviders = () => {
           </p>
         </div>
         <div className="grid grid-cols-3 gap-5 col-span-3">
-          <div className="bg-white rounded-lg flex flex-col justify-center items-center p-5">
+          <div className="bg-white rounded-lg flex flex-col justify-center items-center p-5 shadow-lg">
             <p className="text-6xl font-medium text-indigo-500">25+</p>
             <p className="text-center mt-3 text-gray-600 font-bold">
               Active Services
             </p>
           </div>
-          <div className="bg-white rounded-lg flex flex-col justify-center items-center p-5">
+          <div className="bg-white rounded-lg flex flex-col justify-center items-center p-5 shadow-lg">
             <p className="text-6xl font-medium text-green-500">400+</p>
             <p className="text-center mt-3 text-gray-600 font-bold">
               Providers Operators
             </p>
           </div>
-          <div className="bg-white rounded-lg flex flex-col justify-center items-center p-5">
+          <div className="bg-white rounded-lg flex flex-col justify-center items-center p-5 shadow-lg">
             <p className="text-6xl font-medium text-pink-500">15+</p>
             <p className="text-center mt-3 text-gray-600 font-bold">
               Providers Operators

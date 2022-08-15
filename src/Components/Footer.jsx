@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FaMapMarkerAlt, FaPhoneAlt, FaTelegramPlane } from "react-icons/fa";
 import { BsFacebook, BsInstagram, BsTwitter, BsLinkedin } from "react-icons/bs";
 
@@ -15,9 +15,11 @@ const Footer = () => {
               We work with a passion of taking challenges and creating new ones
               in advertising sector.
             </p>
-            <button className="mt-5 text-white hover:border-orange-400 hover:bg-transparent border-orange-400 bg-orange-400 px-5 text-sm">
-              About Us
-            </button>
+            <Link to="/about">
+              <button className="mt-5 text-white hover:border-orange-400 hover:bg-transparent border-orange-400 bg-orange-400 px-5 text-sm">
+                About Us
+              </button>
+            </Link>
           </div>
           <div>
             <p className="text-white font-medium text-2xl">Quick Links</p>
@@ -120,8 +122,21 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex justify-between py-5">
-            <p className="text-slate-400 text-sm"> {new Date().getFullYear()} &copy; TRB Technology  </p>
-            <p className="text-sm text-slate-400">Designed By <a href="//princu09.github.io"  target="_blank" rel="noreferrer" className="hover:text-cyan-400">NorthFox Group</a></p>
+          <p className="text-slate-400 text-sm">
+            {" "}
+            {new Date().getFullYear()} &copy; TRB Technology{" "}
+          </p>
+          <p className="text-sm text-slate-400">
+            Designed By{" "}
+            <a
+              href="//princu09.github.io"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-cyan-400"
+            >
+              NorthFox Group
+            </a>
+          </p>
         </div>
       </div>
     </>

@@ -9,7 +9,7 @@ const Client = [NFG, BharatPay, VI, TCS];
 
 const HomeHead = () => {
   return (
-    <div className="h-screen grid grid-cols-2 items-center px-20">
+    <div className="min-h-screen grid grid-cols-2 items-center px-20">
       <div>
         <p className="font-bold text-6xl leading-tight">
           Experience <br /> Digital{" "}

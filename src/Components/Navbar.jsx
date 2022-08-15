@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const activeClass = "text-orange-400 border-b-2 pb-2 border-orange-300";
@@ -45,7 +45,7 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="/business-modal"
+                to="/businessModal"
                 className={({ isActive }) => (isActive ? activeClass : "")}
               >
                 Business Models
@@ -68,7 +68,9 @@ const Navbar = () => {
               </NavLink>
             </li>
           </ul>
-          <button className="ml-5">Get In Touch</button>
+          <Link to="/contact">
+            <button className="ml-5">Get In Touch</button>
+          </Link>
         </div>
       </div>
     </div>

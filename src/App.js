@@ -1,17 +1,34 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { About, Contact, Footer, Home, Navbar } from "./Components";
+import {
+  About,
+  Contact,
+  Footer,
+  Home,
+  Navbar,
+  Company,
+  ScrollToTop,
+  BusinessModal,
+  Portfolio,
+  Resources,
+} from "./Screen";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Footer />
+      <ScrollToTop>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/company" element={<Company />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/resources" element={<Resources />} />
+          <Route path="/businessModal" element={<BusinessModal />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </ScrollToTop>
     </>
   );
 };
