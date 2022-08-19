@@ -1,5 +1,6 @@
 import React from "react";
 import { AiOutlineCheckCircle } from "react-icons/ai";
+import { Link } from "react-router-dom";
 import Benefits from "../../assets/benefits.png";
 import Onboarding from "../../assets/onboarding.webp";
 
@@ -35,7 +36,9 @@ const HomeCard = () => {
               API Integration Support
             </li>
           </ul>
-          <button className="my-4">Get The App</button>
+          <Link to="/contact">
+            <button className="my-4">Get The App</button>
+          </Link>
         </div>
       </div>
 

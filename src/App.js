@@ -9,8 +9,6 @@ import {
   Company,
   ScrollToTop,
   BusinessModal,
-  Portfolio,
-  Resources,
 } from "./Screen";
 
 const App = () => {
@@ -21,8 +19,6 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/company" element={<Company />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/resources" element={<Resources />} />
           <Route path="/businessModal" element={<BusinessModal />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />

@@ -6,8 +6,6 @@ import About from "./About";
 import Contact from "./Contact";
 import Company from "./Company";
 import BusinessModal from "./BusinessModal";
-import Portfolio from "./Portfolio";
-import Resources from "./Resources";
 
 export {
   ScrollToTop,
@@ -18,6 +16,4 @@ export {
   Contact,
   Company,
   BusinessModal,
-  Portfolio,
-  Resources,
 };

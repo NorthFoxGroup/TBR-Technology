@@ -12,6 +12,7 @@ const GetInTouch = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224369.03562485037!2d77.26107935916413!3d28.51668171078947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1660582993889!5m2!1sen!2sin"
             allowfullscreen=""
             loading="lazy"
+            title="Noida Map"
             referrerpolicy="no-referrer-when-downgrade"
             className="object-cover w-full h-full"
           />
@@ -63,6 +64,7 @@ const GetInTouch = () => {
                   placeholder="Your Message Here..."
                 />
               </div>
+              <button className="px-10 w-40">Submit</button>
             </div>
           </form>
         </div>
@@ -79,14 +81,36 @@ const GetInTouch = () => {
         <div className="bg-slate-100 rounded-md p-5 flex flex-col items-center justify-center shadow-lg">
           <FaEnvelope className="text-4xl mb-3 text-cyan-500" />
           <p className="text-2xl mb-3 font-medium ">Email us</p>
-          <p className="font-medium text-slate-600">support@rstheme.com</p>
-          <p className="font-medium text-slate-600">info@codesless.com</p>
+          <a
+            href="mailto:northfoxgroup@hotmail.com"
+            className="font-medium text-slate-600"
+          >
+            support@rstheme.com
+          </a>
+          <a
+            href="mailto:northfoxgroup@hotmail.com"
+            className="font-medium text-slate-600"
+          >
+            info@codesless.com
+          </a>
         </div>
         <div className="bg-slate-100 rounded-md p-5 flex flex-col items-center justify-center shadow-lg">
           <BsHeadset className="text-4xl mb-3 text-cyan-500" />
           <p className="text-2xl mb-3 font-medium">Call us</p>
-          <p className="font-medium text-slate-600">(+088)589-8745</p>
-          <p className="font-medium text-slate-600">(+088)222-9999</p>
+          <a
+            href="tel:+919033717372"
+            rel="noreferrer"
+            className="font-medium text-slate-600"
+          >
+            (+088)589-8745
+          </a>
+          <a
+            href="tel:+919033717372"
+            rel="noreferrer"
+            className="font-medium text-slate-600"
+          >
+            (+088)222-9999
+          </a>
         </div>
       </div>
     </div>

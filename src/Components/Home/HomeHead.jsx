@@ -5,6 +5,7 @@ import VI from "../../assets/vi.png";
 import TCS from "../../assets/tcs.png";
 import BharatPay from "../../assets/bharat-pay.png";
 import NFG from "../../assets/nfg.png";
+import { Link } from "react-router-dom";
 const Client = [NFG, BharatPay, VI, TCS];
 
 const HomeHead = () => {
@@ -20,7 +21,9 @@ const HomeHead = () => {
           Accelerating growth for brands like you with technology, experience &
           innovation for a decade.
         </p>
-        <button className="my-10 py-2">Let's Build Together</button>
+        <Link to="/contact">
+          <button className="my-10 py-2">Let's Build Together</button>
+        </Link>
         <div>
           <p className="uppercase font-bold text-slate-500">Clients</p>
         </div>

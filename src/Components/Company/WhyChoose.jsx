@@ -10,6 +10,7 @@ import { BsBookmarkCheckFill } from "react-icons/bs";
 import Saving from "../../assets/saving.png";
 import { GiPiggyBank, GiElectric } from "react-icons/gi";
 import Security from "../../assets/security.png";
+import { Link } from "react-router-dom";
 
 const WhyChoose = () => {
   return (
@@ -65,7 +66,9 @@ const WhyChoose = () => {
               <CgShapeCircle className="mr-2 text-xl" />
               Give your customers a personalized experience
             </p>
-            <button className="mt-5">Get In Touch</button>
+            <Link to="/contact">
+              <button className="mt-5">Get In Touch</button>
+            </Link>
           </div>
           <div className="">
             <img src={Customize} alt="" className="drop-shadow-md" />
@@ -91,9 +94,11 @@ const WhyChoose = () => {
               <CgShapeCircle className="mr-2 text-xl" />
               Validated user interface (UI) to meet modern day challenges
             </p>
-            <button className="mt-5 border-green-500 hover:bg-green-500">
-              Get In Touch
-            </button>
+            <Link to="/contact">
+              <button className="mt-5 border-green-500 hover:bg-green-500">
+                Get In Touch
+              </button>
+            </Link>
           </div>
         </div>
 
@@ -113,9 +118,11 @@ const WhyChoose = () => {
               <CgShapeCircle className="mr-2 text-xl" />
               Upgrade your app with the changing market needs
             </p>
-            <button className="mt-5 border-orange-500 hover:bg-orange-500">
-              Get In Touch
-            </button>
+            <Link to="/contact">
+              <button className="mt-5 border-orange-500 hover:bg-orange-500">
+                Get In Touch
+              </button>
+            </Link>
           </div>
           <div className="">
             <img src={YourApp} alt="" className="drop-shadow-md" />
@@ -141,9 +148,11 @@ const WhyChoose = () => {
               <CgShapeCircle className="mr-2 text-xl" />
               Get your business running in no time
             </p>
-            <button className="mt-5 border-indigo-500 hover:bg-indigo-500">
-              Get In Touch
-            </button>
+            <Link to="/contact">
+              <button className="mt-5 border-indigo-500 hover:bg-indigo-500">
+                Get In Touch
+              </button>
+            </Link>
           </div>
         </div>
 
@@ -165,9 +174,11 @@ const WhyChoose = () => {
               <CgShapeCircle className="mr-2 text-xl" />
               Easier third-party integrations to improve your business processes
             </p>
-            <button className="mt-5 border-pink-500 hover:bg-pink-500">
-              Get In Touch
-            </button>
+            <Link to="/contact">
+              <button className="mt-5 border-pink-500 hover:bg-pink-500">
+                Get In Touch
+              </button>
+            </Link>
           </div>
           <div className="">
             <img src={Security} alt="" className="drop-shadow-md" />

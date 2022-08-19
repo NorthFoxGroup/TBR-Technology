@@ -1,5 +1,6 @@
 import React from "react";
 import { AiFillSetting } from "react-icons/ai";
+import { Link } from "react-router-dom";
 import Partner from "../../assets/partners.png";
 
 const HomePartner = () => {
@@ -18,7 +19,9 @@ const HomePartner = () => {
             Collaborate with us to earn more by selling, customizing or
             integrating our products
           </p>
-          <button className="mt-10 ">Partner With Us</button>
+          <Link to="/contact">
+            <button className="mt-10 ">Partner With Us</button>
+          </Link>
         </div>
         <div>
           <img src={Partner} className="drop-shadow-2xl" alt="" />

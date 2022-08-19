@@ -3,6 +3,7 @@ import PartnerBG from "../../assets/partnerCompany.png";
 import SetupBusiness from "../../assets/setUpBusiness.png";
 import ComprehensiveTechnology from "../../assets/ComprehensiveTechnology.png";
 import { client } from "../../assets/client";
+import { Link } from "react-router-dom";
 
 const Partner = () => {
   return (
@@ -16,12 +17,14 @@ const Partner = () => {
             Become a Code Brew partner to run your independent business, leaving
             the worries to deliver on us.
           </p>
-          <button className="mt-5 border-green-600 hover:bg-green-600">
-            Partner With Us
-          </button>
+          <Link to="/contact">
+            <button className="mt-5 border-green-600 hover:bg-green-600">
+              Partner With Us
+            </button>
+          </Link>
         </div>
         <div>
-          <img src={PartnerBG} alt=""  className="drop-shadow-lg" />
+          <img src={PartnerBG} alt="" className="drop-shadow-lg" />
         </div>
 
         <div className="flex justify-center">
@@ -42,9 +45,11 @@ const Partner = () => {
               customize & integrate
             </p>
           </div>
-          <button className="mt-5 border-green-600 hover:bg-green-600">
-            Partner With Us
-          </button>
+          <Link to="/contact">
+            <button className="mt-5 border-green-600 hover:bg-green-600">
+              Partner With Us
+            </button>
+          </Link>
         </div>
         <div className="flex flex-col justify-center items-start">
           <p className="text-3xl font-bold w-9/12">
@@ -62,13 +67,19 @@ const Partner = () => {
               size & type Start Selling
             </p>
           </div>
-          <button className="mt-5 border-green-600 hover:bg-green-600">
-            Partner With Us
-          </button>
+          <Link to="/contact">
+            <button className="mt-5 border-green-600 hover:bg-green-600">
+              Partner With Us
+            </button>
+          </Link>
         </div>
 
         <div className="flex justify-center">
-          <img src={ComprehensiveTechnology} className="w-9/12 drop-shadow-md" alt="" />
+          <img
+            src={ComprehensiveTechnology}
+            className="w-9/12 drop-shadow-md"
+            alt=""
+          />
         </div>
       </div>
 
@@ -83,13 +94,17 @@ const Partner = () => {
           </p>
         </div>
         <div className="flex justify-center items-center">
-          <button className="">Partner With Us</button>
+          <Link to="/contact">
+            <button className="">Partner With Us</button>
+          </Link>
         </div>
       </div>
 
       <div className="flex flex-col items-center justify-center">
         <p className="text-2xl font-medium my-2 text-cyan-400">CLIENTS</p>
-        <p className="text-3xl font-medium my-2">We’ve Made These Brands Standout</p>
+        <p className="text-3xl font-medium my-2">
+          We’ve Made These Brands Standout
+        </p>
       </div>
       <div className="grid grid-cols-4 gap-14 mt-10">
         {client.map((item) => {

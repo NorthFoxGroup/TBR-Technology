@@ -29,22 +29,6 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="/portfolio"
-                className={({ isActive }) => (isActive ? activeClass : "")}
-              >
-                Portfolio
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/resources"
-                className={({ isActive }) => (isActive ? activeClass : "")}
-              >
-                Resources
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
                 to="/businessModal"
                 className={({ isActive }) => (isActive ? activeClass : "")}
               >
