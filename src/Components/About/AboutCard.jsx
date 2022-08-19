@@ -5,8 +5,8 @@ import Exp from "../../assets/experience.png";
 
 const AboutCard = () => {
   return (
-    <div className="bg-[#023047] text-white p-10 px-20 my-10">
-      <div className="grid grid-cols-3 justify-center items-center p-10">
+    <div className="bg-[#023047] text-white p-10 lg:px-20 my-10">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-10 justify-center items-center lg:p-10 py-10">
         <div className="flex gap-5">
           <div>
             <img src={People} alt="" className="w-16" />

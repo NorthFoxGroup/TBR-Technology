@@ -6,11 +6,11 @@ import { GoGlobe } from "react-icons/go";
 const WhoWeAre = () => {
   return (
     <>
-      <div className="p-20 grid grid-cols-2">
-        <div>
+      <div className="lg:p-20 p-5 py-10 grid lg:grid-cols-2 grid-cols-1">
+        <div className="flex justify-center items-center">
           <img src={WWRImg} alt="" className="rounded-md drop-shadow-lg" />
         </div>
-        <div className="flex justify-center items-center px-20">
+        <div className="flex justify-center items-center lg:px-20 py-10">
           <div>
             <p className="text-xl font-medium">Who We Are ?</p>
             <p className="text-3xl font-bold">
@@ -20,7 +20,7 @@ const WhoWeAre = () => {
               We provide the full spectrum of IT services and consulting for
               various industries.
             </p>
-            <div className="flex mt-10 gap-10">
+            <div className="flex lg:flex-row flex-col mt-10 gap-10">
               <div>
                 <HiSpeakerphone className="bg-[#FFA50055] border-2 border-orange-400 p-5 w-20 h-20 shadow-lg mb-5 text-cyan-black rounded-full" />
                 <p className="font-medium text-xl mb-3">Digital Marketer</p>

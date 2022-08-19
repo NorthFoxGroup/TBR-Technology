@@ -10,7 +10,7 @@ const ContactHead = () => {
           className="w-full h-screen object-cover mix-blend-overlay"
           alt=""
         />
-        <div className="absolute top-1/2 left-44 text-white w-1/2">
+        <div className="absolute top-1/2 lg:left-44 text-white lg:w-1/2 w-full p-10">
           <p className="font-bold text-5xl">Have questions - contact us</p>
           <p className="text-lg mt-5">
             Excepteur sint occaecat cupidatat non proident, sunt in coulpa qui

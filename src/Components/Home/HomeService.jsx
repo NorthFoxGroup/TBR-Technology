@@ -9,7 +9,7 @@ import API from "../../assets/api.png";
 
 const HomeService = () => {
   return (
-    <div className="p-20 h-full flex justify-center flex-col bg-[#023047]">
+    <div className="lg:p-20 p-5 py-10 h-full flex justify-center flex-col bg-[#023047]">
       <div className=" mb-20">
         <div className="flex gap-2 mb-3 text-white">
           <AiFillSetting className="text-3xl text-orange-400" />
@@ -24,7 +24,7 @@ const HomeService = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-3 gap-14">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-14">
         <div className="group flex flex-col items-center p-8 rounded-lg shadow-lg transition duration-700 ease-in-out hover:shadow-2xl bg-[#ffffff11] hover:bg-white drop-shadow-lg hover:cursor-pointer">
           <div className="w-24 h-24 p-6 bg-green-200 rounded-full ">
             <img src={B2B} alt="" />

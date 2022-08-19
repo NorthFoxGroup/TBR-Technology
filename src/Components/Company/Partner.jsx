@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 
 const Partner = () => {
   return (
-    <div className="p-20">
-      <div className="grid grid-cols-2 gap-10 items-center">
+    <div className="lg:p-20 p-5 py-10">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 items-center">
         <div>
           <p className="text-4xl font-bold w-4/6 leading-normal">
             To Move Fast, Go Alone To Reach Further, Move Together
@@ -83,7 +83,7 @@ const Partner = () => {
         </div>
       </div>
 
-      <div className="bg-[#023047] p-10 my-20 text-white grid grid-cols-3 rounded-md">
+      <div className="bg-[#023047] p-10 my-20 text-white grid lg:grid-cols-3 grid-cols-1 rounded-md">
         <div className="col-span-2">
           <p className="text-3xl mb-3 font-medium">
             Your Growth Is Our SuccessI
@@ -93,7 +93,7 @@ const Partner = () => {
             Brew offers you the solutions & resources you need to scale.
           </p>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="lg:flex justify-center items-center lg:m-0 mt-10">
           <Link to="/contact">
             <button className="">Partner With Us</button>
           </Link>
@@ -106,7 +106,7 @@ const Partner = () => {
           We’ve Made These Brands Standout
         </p>
       </div>
-      <div className="grid grid-cols-4 gap-14 mt-10">
+      <div className="grid lg:grid-cols-4 grid-cols-2 gap-14 mt-10">
         {client.map((item) => {
           return (
             <div className="flex justify-center">

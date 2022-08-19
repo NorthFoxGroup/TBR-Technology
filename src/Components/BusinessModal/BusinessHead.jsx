@@ -5,13 +5,13 @@ import BMBG from "../../assets/businessModal.png";
 const BusinessHead = () => {
   return (
     <>
-      <div className="min-h-screen p-20 grid grid-cols-2 bg-green-200">
+      <div className="min-h-screen lg:p-20 p-5 py-10 grid lg:grid-cols-2 grid-cols-1 bg-green-200 pt-20">
         <div className="flex justify-center items-center">
-          <div className="w-9/12">
-            <p className="text-5xl font-medium leading-snug">
+          <div className="lg:w-9/12 w-full">
+            <p className="lg:text-5xl text-3xl font-medium leading-snug">
               Launch Your Business Online With Next-Gen Clone Apps
             </p>
-            <p className="text-2xl my-5">
+            <p className="lg:text-2xl text-lg my-5">
               Choose from the array of bespoke custom application clones,
               tailored-fit to you business needs.
             </p>

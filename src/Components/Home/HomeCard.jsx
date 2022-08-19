@@ -7,7 +7,7 @@ import Onboarding from "../../assets/onboarding.webp";
 const HomeCard = () => {
   return (
     <>
-      <div className="grid grid-cols-2 gap-10 p-20">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 lg:p-20 p-5">
         <div className="flex items-center">
           <img src={Benefits} alt="" className="rounded-lg shadow-xl" />
         </div>
@@ -42,7 +42,7 @@ const HomeCard = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-10 p-20">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 lg:p-20 p-5">
         <div className="flex flex-col justify-center items-start">
           <p className="text-3xl font-medium">Client Onboarding Process</p>
           <p className="text-justify py-5 font-medium text-gray-500">

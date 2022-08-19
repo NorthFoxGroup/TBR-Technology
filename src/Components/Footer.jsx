@@ -7,8 +7,8 @@ const Footer = () => {
   const activeClass = "text-orange-400";
   return (
     <>
-      <div className="p-20 pb-0 bg-[#023047]">
-        <div className="grid grid-cols-4 gap-10 border-b border-[#ffffff55] pb-10">
+      <div className="lg:p-20 p-5 py-10 pb-0 bg-[#023047]">
+        <div className="grid lg:grid-cols-4 grid-cols-1 gap-10 border-b border-[#ffffff55] pb-10">
           <div>
             <p className="text-white font-medium text-2xl">TRB Technology</p>
             <p className="text-slate-400 mt-5">

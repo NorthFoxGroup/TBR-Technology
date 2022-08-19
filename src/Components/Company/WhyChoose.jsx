@@ -21,7 +21,7 @@ const WhyChoose = () => {
           className="h-screen w-full object-cover mix-blend-overlay"
           alt=""
         />
-        <div className="absolute p-5 bg-[#ffffff22] rounded-md top-1/3 right-32 shadow-lg">
+        <div className="absolute p-5 bg-[#ffffff22] rounded-md top-1/3 lg:right-32 shadow-lg md:m-5">
           <p className="flex items-center text-xl font-medium text-orange-400">
             <AiFillQuestionCircle className="mr-2" /> WHY CHOOSE US
           </p>
@@ -35,20 +35,20 @@ const WhyChoose = () => {
         </div>
       </div>
 
-      <div className="p-20">
+      <div className="lg:p-20 p-5 py-10">
         <div className="my-10">
           <p className="text-3xl font-medium">
-            5 Reasons To Choose{" "}
-            <span className="text-orange-400">TRB Technology</span> For Your
+            5 Reasons To Choose
+            <span className="text-orange-400"> TRB Technology</span> For Your
             Business Idea
           </p>
-          <p className="font-medium text-lg">
+          <p className="font-medium text-lg my-5">
             Leverage the power of innovation and technology to boost your brand,
             with the industry leaders catering 5K+ businesses globally.
           </p>
         </div>
 
-        <div className="grid grid-cols-2 gap-10 bg-[#00B0FF33] rounded-md mb-20">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 bg-[#00B0FF33] rounded-md mb-20">
           <div className="flex justify-center items-start flex-col p-10">
             <AiFillSetting className="text-4xl text-cyan-500" />
             <p className="my-5 text-2xl font-bold">
@@ -75,7 +75,7 @@ const WhyChoose = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-10 bg-[#00BFA633] rounded-md my-20">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 bg-[#00BFA633] rounded-md my-20">
           <div className="">
             <img src={TestedSolution} alt="" className="drop-shadow-md" />
           </div>
@@ -102,7 +102,7 @@ const WhyChoose = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-10 bg-[#F9A82633] rounded-md mb-20">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 bg-[#F9A82633] rounded-md mb-20">
           <div className="flex justify-center items-start flex-col p-10">
             <BsBookmarkCheckFill className="text-4xl text-orange-500" />
             <p className="my-5 text-2xl font-bold">Your App, Your Rights</p>
@@ -129,7 +129,7 @@ const WhyChoose = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-10 bg-[#536DFE33] rounded-md my-20">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 bg-[#536DFE33] rounded-md my-20">
           <div className="">
             <img src={Saving} alt="" className="drop-shadow-md" />
           </div>
@@ -156,7 +156,7 @@ const WhyChoose = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-10 bg-[#F5005733] rounded-md my-20 py-10">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 bg-[#F5005733] rounded-md my-20 py-10">
           <div className="flex justify-center items-start flex-col p-10">
             <GiElectric className="text-4xl text-pink-500" />
             <p className="my-5 text-2xl font-bold">

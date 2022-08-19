@@ -7,11 +7,11 @@ import { Link } from "react-router-dom";
 const AboutPlan = () => {
   return (
     <>
-      <div className="flex justify-center items-center flex-col m-20">
+      <div className="flex justify-center items-center flex-col lg:m-20 m-5">
         <p className="text-3xl font-medium">Pricing Plans</p>
-        <div className="grid grid-cols-3 gap-10 mt-20 w-4/5">
+        <div className="grid lg:grid-cols-3 grid-cols-1 gap-10 mt-20 lg:w-4/5 w-full">
           <div className="group">
-            <div className="flex justify-center items-center flex-col px-10 group-hover:shadow-2xl transition-all delay-200 ease-in-out group-hover:cursor-pointer group-hover:text-cyan-400 group-hover:bg-[#023047] rounded-lg">
+            <div className="flex justify-center items-center flex-col px-10 group-hover:shadow-2xl transition-all delay-200 ease-in-out group-hover:cursor-pointer group-hover:text-cyan-400 group-hover:bg-[#023047] rounded-lg lg:bg-transparent bg-[#023047] lg:text-black text-cyan-400">
               <div className="my-10 mb-5 flex justify-center flex-col items-center">
                 <p className="font-medium text-xl">Basic Plan</p>
                 <BiBadgeCheck className="text-7xl mt-3" />
@@ -49,7 +49,7 @@ const AboutPlan = () => {
             </div>
           </div>
           <div className="group">
-            <div className="flex justify-center items-center flex-col px-10 group-hover:shadow-2xl transition-all delay-200 ease-in-out group-hover:cursor-pointer group-hover:text-cyan-400 group-hover:bg-[#023047] rounded-lg">
+            <div className="flex justify-center items-center flex-col px-10 group-hover:shadow-2xl transition-all delay-200 ease-in-out group-hover:cursor-pointer group-hover:text-cyan-400 group-hover:bg-[#023047] rounded-lg lg:bg-transparent bg-[#023047] lg:text-black text-cyan-400">
               <div className="my-10 mb-5 flex justify-center flex-col items-center">
                 <p className="font-medium text-xl">Premium Plan</p>
                 <BsDownload className="text-7xl mt-3" />
@@ -87,7 +87,7 @@ const AboutPlan = () => {
             </div>
           </div>
           <div className="group">
-            <div className="flex justify-center items-center flex-col px-10 group-hover:shadow-2xl transition-all delay-200 ease-in-out group-hover:cursor-pointer group-hover:text-cyan-400 group-hover:bg-[#023047] rounded-lg">
+            <div className="flex justify-center items-center flex-col px-10 group-hover:shadow-2xl transition-all delay-200 ease-in-out group-hover:cursor-pointer group-hover:text-cyan-400 group-hover:bg-[#023047] rounded-lg lg:bg-transparent bg-[#023047] lg:text-black text-cyan-400">
               <div className="my-10 mb-5 flex justify-center flex-col items-center">
                 <p className="font-medium text-xl">Family Plan</p>
                 <BsPieChartFill className="text-7xl mt-3" />

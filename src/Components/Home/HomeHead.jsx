@@ -10,10 +10,10 @@ const Client = [NFG, BharatPay, VI, TCS];
 
 const HomeHead = () => {
   return (
-    <div className="min-h-screen grid grid-cols-2 items-center px-20">
+    <div className="min-h-screen grid lg:grid-cols-2 grid-cols-1 items-center lg:px-20 px-5 lg:py-5 py-28">
       <div>
-        <p className="font-bold text-6xl leading-tight">
-          Experience <br /> Digital{" "}
+        <p className="font-bold lg:text-6xl text-3xl leading-tight">
+          Experience <br /> Digital
           <span className="text-cyan-400">Transformation</span> <br /> To Drive
           Success
         </p>

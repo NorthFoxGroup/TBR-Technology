@@ -5,7 +5,7 @@ import { client } from "../../assets/client";
 const HomeClients = () => {
   return (
     <>
-      <div className="p-20">
+      <div className="lg:p-20 p-5 py-10 min-h-screen">
         <div className="mb-20">
           <div className="flex gap-2 mb-3">
             <FaUsers className="text-3xl text-orange-400" />
@@ -15,7 +15,7 @@ const HomeClients = () => {
             We Have Made Them Taste Success
           </p>
         </div>
-        <div className="grid grid-cols-4 gap-14">
+        <div className="grid lg:grid-cols-4 grid-cols-2 gap-14">
           {client.map((item) => {
             return (
               <div className="flex justify-center">
