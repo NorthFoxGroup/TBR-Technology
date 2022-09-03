@@ -23,6 +23,47 @@ const Navbar = () => {
               Home
             </NavLink>
           </li>
+          <li className="group">
+            Services
+            <div className="bg-white shadow-xl absolute hidden group-hover:block p-10 rounded-md">
+              <div className="grid grid-cols-2 gap-5">
+                <div>
+                  <Link to="/service1">
+                    <li className="text-black">Service Page 1</li>
+                  </Link>
+                  <Link to="/service2">
+                    <li className="my-3 text-black">Service Page 2</li>
+                  </Link>
+                  <Link to="/service3">
+                    <li className="my-3 text-black">Service Page 3</li>
+                  </Link>
+                  <Link to="/service4">
+                    <li className="my-3 text-black">Service Page 4</li>
+                  </Link>
+                  <Link to="/service5">
+                    <li className="text-black">Service Page 5</li>
+                  </Link>
+                </div>
+                <div>
+                  <Link to="/service6">
+                    <li className="text-black">Service Page 6</li>
+                  </Link>
+                  <Link to="/service7">
+                    <li className="my-3 text-black">Service Page 7</li>
+                  </Link>
+                  <Link to="/service8">
+                    <li className="my-3 text-black">Service Page 8</li>
+                  </Link>
+                  <Link to="/service9">
+                    <li className="my-3 text-black">Service Page 9</li>
+                  </Link>
+                  <Link to="/service10">
+                    <li className="text-black">Service Page 10</li>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </li>
           <li>
             <NavLink
               to="/company"

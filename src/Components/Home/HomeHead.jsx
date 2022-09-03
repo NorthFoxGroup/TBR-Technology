@@ -12,10 +12,15 @@ const HomeHead = () => {
   return (
     <div className="min-h-screen grid lg:grid-cols-2 grid-cols-1 items-center lg:px-20 px-5 lg:py-5 py-28">
       <div>
-        <p className="font-bold lg:text-6xl text-3xl leading-tight">
-          Experience <br /> Digital
-          <span className="text-cyan-400">Transformation</span> <br /> To Drive
-          Success
+        <p className="font-bold lg:text-6xl text-3xl leading-loose">
+          Experience
+        </p>
+        <p className="my-5 font-bold lg:text-6xl text-3xl leading-loose">
+          Digital
+          <span className="text-cyan-400"> Transformation</span>
+        </p>
+        <p className="font-bold lg:text-6xl text-3xl leading-loose">
+          To Drive Success
         </p>
         <p className="font-medium w-3/5 mt-5">
           Accelerating growth for brands like you with technology, experience &
