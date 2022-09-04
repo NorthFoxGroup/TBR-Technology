@@ -24,8 +24,6 @@ const GetInTouch = () => {
         </div>
         <div className="relative lg:pl-10 p-5 ">
           <form
-            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSenw3pAiHblMPjLbhxbYUQRj2-shtycF-P8hY4bnFpXEKRFTA/formResponse"
-            method="POST"
           >
             <div className="relative">
               <p className="text-3xl font-bold mb-5">Get in Touch</p>

@@ -1,5 +1,4 @@
 import React from "react";
-
 import BG from "../../assets/bg.webp";
 import VI from "../../assets/vi.png";
 import TCS from "../../assets/tcs.png";

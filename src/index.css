@@ -10,3 +10,18 @@
     @apply border border-cyan-400 rounded p-2 hover:bg-cyan-400 hover:text-white transition-all delay-100 font-medium shadow-lg;
   }
 }
+
+.subscribe{
+  width: 900px;
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  z-index: 9999999;
+}
+
+@media (max-width : 999px) {
+  .subscribe {
+    width: 70%;
+  }
+}
